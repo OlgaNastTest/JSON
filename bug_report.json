@@ -1,0 +1,14 @@
+{
+  "bug report structure":[
+    "summary",
+    "project",
+    "component",
+    "version",
+    "severity",
+    "priority",
+    "steps to reproduce",
+    "actual result",
+    "expected result",
+    "additional information"
+  ]
+}
