@@ -1,25 +1,32 @@
 # JSON
 
 4. Создать внешний репозиторий c названием JSON.
+
 new
 
  5. Клонировать репозиторий JSON на локальный компьютер.
+ 
  git clone https://github.com/OlgaNastTest/JSON.git
 
  6. Внутри локального JSON создать файл “new.json”.
+
 cd JSON
 touch new.json
 
  7. Добавить файл под гит.
+
 git add new.json
 
  8. Закоммитить файл.
+
 git commit -m "add new.json"
 
  9. Отправить файл на внешний GitHub репозиторий.
+
 git push
 
  10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+
 cat >> new.json
 {
         "Full Name": "Olga Nastsiushena",
@@ -30,14 +37,17 @@ cat >> new.json
 Ctr C
 
  11. Отправить изменения на внешний репозиторий.
+
 git add new.json
 git commit -m "replace new.json"
 git push
 
  12. Создать файл preferences.json
+
 touch preferences.json
 
  13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+
 cat >> preferences.json
 {
 	"favorite_movie": "1+1",
@@ -48,6 +58,7 @@ cat >> preferences.json
 }
  Ctr C
 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+
 cat > sklls.json
 {
 	"Skill":"Testing Theory, SDLC, STLC",
@@ -81,19 +92,23 @@ cat > sklls.json
 Ctr C
 
  15. Отправить сразу 2 файла на внешний репозиторий.
+
 git add .
 git commit -m "replace 2 new.json"
 git push
 
  16. На веб интерфейсе создать файл bug_report.json.
+
 Create new file
 Edit new file: bug_report.json
 
 
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
 Commit new file
 
  18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+
 
 {
   "bug report structure":[
@@ -109,9 +124,12 @@ Commit new file
     "additional information"
   ]
 }
+Ctr C
 
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
 commit changes
 
  20. Синхронизировать внешний и локальный репозиторий JSON
+
 git pull
